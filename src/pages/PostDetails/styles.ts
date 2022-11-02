@@ -8,5 +8,4 @@ export const PostDetailsContainer = styled.div`
   align-items: center;
   justify-content: center;
   margin-top: -6rem;
-  gap: 4.5rem;
 `

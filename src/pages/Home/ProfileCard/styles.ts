@@ -8,6 +8,13 @@ export const ProfileCardContainer = styled.div`
   align-items: center;
   justify-content: center;
   border-radius: 10px;
+  width: 54rem;
+
+  img {
+    height: 9.25rem;
+    width: 9.25rem;
+    border-radius: 8px;
+  }
 `
 
 export const ProfileContentContainer = styled.div`

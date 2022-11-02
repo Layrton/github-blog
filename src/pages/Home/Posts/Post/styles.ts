@@ -10,6 +10,8 @@ export const PostContainer = styled(Link)`
   gap: 1.25rem;
   border: 2px solid transparent;
   cursor: pointer;
+  max-width: 100%;
+  transition: 0.2s;
 
   &:hover {
     border: 2px solid ${(props) => props.theme['base-label']};
@@ -29,12 +31,13 @@ export const PostTitle = styled.div`
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
+    width: 100%;
   }
 
   span {
     font-size: 0.875rem;
     color: ${(props) => props.theme['base-span']};
-    width: 25%;
+    width: 30%;
   }
 `
 
